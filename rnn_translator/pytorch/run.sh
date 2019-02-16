@@ -9,7 +9,8 @@ SEED=${1:-"1"}
 TARGET=${2:-"21.80"}
 
 # run training
-python3 -m multiproc train.py \
+python3 -m multiproc eval.py \
+  --resume model_best.pth \
   --save ${RESULTS_DIR} \
   --dataset-dir ${DATASET_DIR} \
   --seed $SEED \
