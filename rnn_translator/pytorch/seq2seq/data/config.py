@@ -13,9 +13,9 @@ TGT_TRAIN_FNAME = 'train.tok.clean.bpe.32000.de'
 SRC_VAL_FNAME = 'newstest_dev.tok.clean.bpe.32000.en'
 TGT_VAL_FNAME = 'newstest_dev.tok.clean.bpe.32000.de'
 
-SRC_TEST_FNAME = 'newstest2014.tok.bpe.32000.en'
-TGT_TEST_FNAME = 'newstest2014.tok.bpe.32000.de'
+SRC_TEST_FNAME = 'newstest2017.tok.bpe.32000.en'
+TGT_TEST_FNAME = 'newstest2017.tok.bpe.32000.de'
 
-TGT_TEST_TARGET_FNAME = 'newstest2014.de'
+TGT_TEST_TARGET_FNAME = 'newstest2017.de'
 
 DETOKENIZER = 'mosesdecoder/scripts/tokenizer/detokenizer.perl'
